@@ -1,0 +1,53 @@
+<form #HospitalForm="ngForm" (ngSubmit)="createHospital(HospitalForm)" >
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">New</h3>
+    </div>
+    <div class="panel-body">
+        
+            <div class="form-group">
+                <h2 align="center">Hospital Form</h2>
+            </div>
+            
+            <div class="form-group">
+                <label class="control-label" for="hospitalName">Name</label>
+                <input id="hname" type="text" name="hname" maxlength="50" class="form-control" ngModel>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="hphone">Phone</label>
+                <input id="hphone" type="number" name="hphone" maxlength="50" class="form-control" ngModel>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="hstreetno">StreetNo</label>
+                <input id="hstreetno" type="text" name="hstreetno" maxlength="50" class="form-control" ngModel>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="harea">Area</label>
+                <input id="harea" type="text" name="harea" maxlength="50" class="form-control" ngModel>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="hcity">City</label>
+                <input id="hcity" type="text" name="hcity" maxlength="50" class="form-control" ngModel>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="hstate">State</label>
+                <input id="hstate" type="text" name="hstate" maxlength="50" class="form-control" ngModel>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="hcountry">Country</label>
+                <input id="hcountry" type="text" name="country" maxlength="50" class="form-control" ngModel>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="hpincode">Pincode</label>
+                <input id="hpincode" type="number" name="hpincode" maxlength="50" class="form-control" ngModel>
+            </div>
+        
+            <div class="form-group">
+                <input  id="submithospital" type="submit" value="Submit" class="btn btn-info btn-block"/>
+            </div>
+            
+       
+    </div>
+    
+</div>
+</form>
